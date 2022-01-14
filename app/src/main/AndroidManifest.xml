@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN14SEMARANG">
         <activity
+            android:name=".Basket"
+            android:exported="false" />
+        <activity
+            android:name=".Gurudanstaff"
+            android:exported="false" />
+        <activity
             android:name=".Sembilan"
             android:exported="false" />
         <activity

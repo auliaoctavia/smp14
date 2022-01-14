@@ -18,6 +18,7 @@ public class Ekstrakulikuler extends AppCompatActivity {
     CardView cvPaskibra;
     CardView cvRebana;
     CardView cvSepakbola;
+    CardView cvBasket;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class Ekstrakulikuler extends AppCompatActivity {
         cvPaskibra = findViewById(R.id.Paskibra);
         cvRebana = findViewById(R.id.Rebana);
         cvSepakbola = findViewById(R.id.Sepakbola);
+        cvBasket = findViewById(R.id.Basket);
 
         SliderView sliderView=findViewById(R.id.imageSlider);
 
@@ -63,6 +65,15 @@ public class Ekstrakulikuler extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        cvBasket.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Ekstrakulikuler.this,Basket.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }

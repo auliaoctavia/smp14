@@ -67,34 +67,6 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:layout_marginTop="20dp"
-            android:text="48 Titik CCTV "
-            android:textColor="#ffff"
-            android:textSize="15sp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/cctvsatu"/>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/cctvdua"/>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/cctvtiga"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:layout_marginTop="20dp"
             android:text="Laboratorium IPA"
             android:textColor="#ffff"
             android:textSize="15sp"
@@ -121,6 +93,18 @@
             android:layout_height="200dp"
             android:layout_marginTop="10dp"
             android:src="@drawable/labkom"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/labkomm"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/labkommm"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -223,6 +207,51 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:layout_marginTop="20dp"
+            android:text="Tempat Cuci Tangan"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cucitangan"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:text="48 Titik CCTV "
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cctvsatu"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cctvdua"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cctvtiga"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
             android:text="Tempat Parkir"
             android:textColor="#ffff"
             android:textSize="15sp"
@@ -233,6 +262,22 @@
             android:layout_height="200dp"
             android:layout_marginTop="10dp"
             android:src="@drawable/tempatparkir"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:text="Kantin"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/kantin"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -266,6 +311,5 @@
             android:layout_marginTop="10dp"
             android:src="@drawable/uks"/>
     </LinearLayout>
-
 
 </ScrollView>

@@ -1,7 +1,5 @@
 package com.smkn9semarang.smpn14semarang;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
